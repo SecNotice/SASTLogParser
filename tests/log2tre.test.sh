@@ -35,6 +35,7 @@ c_blue="\E[0;34m"
 c_h_blue="\E[1;34m"
 
 echo -ne "${c_green}Tests for log2tre.py module${c_std}\n"
+echo -ne "${c_h_blue}Command line:${c_yellow} ../src/log2tre.py --log_file=\"../test.logs/nohup.out\" ${c_std}\n"
 ../src/log2tre.py --log_file="../test.logs/nohup.out" 
 
 ls *.tre
